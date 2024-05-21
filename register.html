@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+	body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: black;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid black;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+	
+	body,h1 {font-family: "Raleway", Arial, sans-serif}
+h1 {letter-spacing: 6px}
+.w3-row-padding img {margin-bottom: 12px}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 1px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+    font-size: 14px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 5px;
+  text-align: center;
+  background: white;
+  margin-top: 5px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><img src="Logo.png" width="1189" height="153" alt=""/></h1>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="profile.html">Profile</a>
+  <a href="job application.html">Job Application</a>
+  <a href="courses.html">Courses</a>
+  <a href="register.html" style="float: right; font-size: 12px;">Register</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Register</h2>
+      <h5>"In the vast expanse of the digital landscape, The Hot Bean Web emerges as a dynamic realm where ideas percolate" &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h5>
+      <p>Fill all details.&nbsp; &nbsp; &nbsp;&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><form action="/action_page.php" style="max-width:500px;margin:auto">
+  <h2>REGISTER&nbsp; &nbsp;</h2>
+  <div class="input-container">
+    <i class="fa fa-user icon"></i>
+    <input class="input-field" type="text" placeholder="Username" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-envelope icon"></i>
+    <input class="input-field" type="text" placeholder="Email" name="email">
+  </div>
+  
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="password" placeholder="Password" name="psw">
+  </div>
+
+  <button type="submit" class="btn">Register</button>
+</form>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <div class="rightcolumn"></div>
+</div>
+
+<div class="footer">
+  <h2>
+  <p><img src="footer.png" alt="" width="528" height="78" usemap="#Map"/>
+    <map name="Map">
+      <area shape="circle" coords="185,24,13" href="https://en-gb.facebook.com/" target="_blank">
+      <area shape="circle" coords="225,24,11" href="https://twitter.com/?lang=en" target="_blank">
+      <area shape="circle" coords="265,25,11" href="https://www.pinterest.co.uk/" target="_blank">
+      <area shape="circle" coords="304,25,11" href="https://www.instagram.com/" target="_blank">
+      <area shape="circle" coords="343,28,12" href="https://open.spotify.com/" target="_blank">
+    </map>
+  </p>
+</footer></h2>
+</div>
+
+</body>
+</html>
+
+
+
